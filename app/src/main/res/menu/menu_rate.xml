@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.challenge.n26.nikitabitcoin.activities.rate.view.RateActivity">
+    <item
+        android:id="@+id/action_30days"
+        android:orderInCategory="100"
+        android:title="@string/days30"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actions_60days"
+        android:orderInCategory="100"
+        android:title="@string/days60"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actions_180days"
+        android:orderInCategory="100"
+        android:title="@string/days180"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actions_year"
+        android:orderInCategory="100"
+        android:title="@string/year"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.challenge.n26.nikitabitcoin.misc.ui.PoliteSwipeToRefresh
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.challenge.n26.nikitabitcoin.misc.ui.GraphView
+            android:id="@+id/graph"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/text_margin"
+            app:labelTextSize="12sp"
+            app:renderMode="bar"/>
+    </com.challenge.n26.nikitabitcoin.misc.ui.PoliteSwipeToRefresh>
+
+</LinearLayout>
