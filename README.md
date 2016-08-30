@@ -17,6 +17,7 @@ What's done:
 
 7) Rendering supports touch events
 
+
 What I didn't do, but would like to see in a production ready class:
 
 1) State saving of the renderer
@@ -34,5 +35,7 @@ What I didn't do, but would like to see in a production ready class:
 7) Animations for bars loading and appearing
 
 8) Integration tests for repo methods
+
+
 
 IMO all that is easily done with the current architecture and more time. Personal learnings for me - RX is helpful for quick setup of an ASYNC pipeline. Got better understanding of Canvas class and Android API rendering. Honestly - OpenGL seems more robust and just as painful to setup.
